@@ -1,0 +1,18 @@
+print("Введите координаты точки a(x1;y1): ")
+x1=input("Введите число: ")
+x1=float(x1)
+y1=input("Введите число: ")
+y1=float(y1)
+print("Введите координаты точки b(x2;y2): ")
+x2=input("Введите число: ")
+x2=float(x2)
+y2=input("Введите число: ")
+y2=float(y2)
+k =(y1-y2)/(x1-x2)
+k=float(k)
+print(k)
+b=y2-k*x2
+b=float(b)
+print(b)
+print("y=k*x+b")
+

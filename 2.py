@@ -1,0 +1,16 @@
+a=6
+b=2
+d=a+b
+f=a-b
+j=a/b
+k=a*b
+v=a//b
+l=a%b
+o=a**b
+print(d)
+print(f)
+print("Нацело",j)
+print(k)
+print(v)
+print(l)
+print(o)

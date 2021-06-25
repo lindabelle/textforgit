@@ -1,0 +1,20 @@
+number=int(input("Введите число"))
+chet=0
+nechet=0
+for i in number:
+    if i%2==0:
+    chet=chet+1
+    print('chtnoe')
+   elif i%2!=0:
+   nechet=nechet+1
+   print('nechtnoe')
+sum=0
+proiz=1
+    if chet>nechet:
+    sum=sum*i
+    print(sum)
+else:
+proiz=number[0]+ number[2]+number[5]
+
+
+

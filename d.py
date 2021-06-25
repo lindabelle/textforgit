@@ -1,0 +1,9 @@
+d={}
+d={'dict':1,'dictionary':2}
+print(d)
+d=dict(short='dict',long='dictionary')
+d_2=dict([(1,1),(2,4)])
+print(d,d_2)
+d=dict.fromkeys(['a','b'])
+d_2=dict.fromkeys(['a','b'],100)
+print(d,'\n',d_2)
